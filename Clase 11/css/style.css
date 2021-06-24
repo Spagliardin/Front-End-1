@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Recorda utilizar el selector universal */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #E5E5E5;;
@@ -14,14 +23,16 @@ header ul{
     color: white;
     text-transform: none;
 }
-
+/* --------------> aca estas llamando una etiqueta que no existe
 cajas{
     flex: display;
 }
-.caja1{
+*/ 
+
+.Caja1{
     background-image: url("../img/delivery.jpg");
-    width: auto;
-    height: auto;
+    width: 490px;
+    height: 350px;
 }
 
 .caja2{
